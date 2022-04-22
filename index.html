@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Tourism Guidance</title>
+
+	<!-- font awesome cdn link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+	<!-- custom css fil link-->
+	<link rel="stylesheet"  href="csss/style.css">
+	<link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+
+	<!-- Header section start -->
+	<header>
+		<div id="menu-bar" class="fas fa-bars"></div>
+		
+		<a href="#" class="logo"><span>T</span>ravel</a>
+
+		<nav class="navbar">
+			<a href="#home">home</a>
+			<a href="#book">book</a>
+			<a href="#packages">packages</a>
+			<a href="#services">services</a>
+			<a href="#gallery">gallery</a>
+			<a href="#review">review</a>
+			<a href="#contact">contact</a>
+				
+		</nav>
+		<div class="icons">
+			<i class="fas fa-search" id="search-btn"></i>
+			<i class="fas fa-user" id="login-btn"></i>
+		</div>
+		<form action="" class="search-bar-container">
+			<input type="search" id="search-bar" placeholder="search here....">
+			<label for="search-bar" class="fas fa-search"></label>
+		</form>
+
+	</header>
+
+	<!-- Header section end -->
+
+	<!-- login form container -->
+
+	 <div class="login-form-container">
+
+	 	<i class="fas fa-times" id="form-close"></i>
+
+	 	<form action="">
+	 		<h3>Login</h3>
+	 		<input type="email" class="box" placeholder="enter your email">
+	 		<input type="password" class="box" placeholder="enter your your password">
+	 		<input type="submit" value="login now" class="btn" >
+	 		<input type="checkbox" id="remember">
+	 		<label for="remember"> remember me</label>
+	 		<p>forget password? <a href="#"> click here</a></p>
+	 		<p>don't have an account? <a href="register.php"> register now</a></p>
+	 	</form>
+	 </div>
+	 <!-- registration form starts -->
+	
+	 <!-- registration form ends -->
+
+	 <!-- home section starts -->
+	 <section class="home" id="home">
+	 	<div class="content">
+	 		<h3>Adventure is worthwhile</h3>
+	 		<p>Discover new places with us, adventure awaits</p>
+	 		<a href="#gallery" class="btn">Discover more</a>
+	 	</div>
+	 	<div class="controls">
+	 		 <span class="vid-btn active" data-src="images/vid3.mp4"></span>
+	 		 <span class="vid-btn" data-src="images/vid2.mp4"></span>
+	 		 <span class="vid-btn" data-src="images/vid1.mp4"></span>
+	 		 <span class="vid-btn" data-src="images/vid4.mp4"></span>
+	 		 <span class="vid-btn" data-src="images/vid5.mp4"></span>
+	 	</div>
+	 	<div class="video-container">
+	 		<video src="images/vid3.mp4" id="video-slider" loop autoplay muted></video>
+	 	</div>
+	 </section>
+	 <!-- home section end -->
+	 <!-- book section starts -->
+	 <section class="book" id="book">
+	 	<h1 class="heading">
+	 		<span>b</span>
+	 		<span>o</span>
+	 		<span>o</span>
+	 		<span>k</span>
+	 		<span class="space"></span>
+	 		<span>n</span>
+	 		<span>o</span>
+	 		<span>w</span>
+	 	</h1>
+	 	<div class="row">
+	 		<div class="image">
+	 			<img src="images/img1.jpg" alt="">
+	 		</div>
+	 		<form action="">
+	 			<div class="inputbox">
+	 				<h3>Where to</h3>
+	 				<input type="text" placeholder="place name">
+	 			</div>
+	 			<div class="inputbox">
+	 				<h3>How many</h3>
+	 				<input type="number" placeholder="number of guest">
+	 			</div>
+	 			<div class="inputbox">
+	 				<h3>arrivals</h3>
+	 				<input type="date" >
+	 			</div>
+	 			<div class="inputbox">
+	 				<h3>leaving</h3>
+	 				<input type="date" >
+	 			</div>
+	 			<input type="submit" class="btn" value="Book now">
+	 		</form>
+	 	</div>
+	 </section>
+	 <!-- book section ends -->
+	 <!-- package section starts -->
+	 <section class="packages" id="packages">
+	 	<h1 class="heading">
+	 		<span>p</span>
+	 		<span>a</span>
+	 		<span>c</span>
+	 		<span>k</span>
+	 		<span>a</span>
+	 		<span>g</span>
+	 		<span>e</span>
+	 		<span>s</span>
+	 	</h1>
+	 	<div class="box-container">
+	 		<div class="box">
+	 			<img src="images/kigali.jpg" alt="">
+	 			<div class="content">
+	 				<h3> <i class="fas fa-map-marker-alt"> Kigali </i> </h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<div class="stars">
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="far fa-star"></i>
+	 				</div>
+	 				<div class="price"> $90 <span> $120 </span></div>
+	 				<a href="#" class="btn"> Book Now </a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/kampala.jpg" alt="">
+	 			<div class="content">
+	 				<h3> <i class="fas fa-map-marker-alt"> Kampala </i> </h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<div class="stars">
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="far fa-star"></i>
+	 				</div>
+	 				<div class="price"> $90 <span> $120 </span></div>
+	 				<a href="#" class="btn"> Book Now </a>
+	 			</div>
+	 			<div class="box">
+	 			<img src="images/daresalama.jpg" alt="">
+	 			<div class="content">
+	 				<h3> <i class="fas fa-map-marker-alt"> Dar Salam </i> </h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<div class="stars">
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="far fa-star"></i>
+	 				</div>
+	 				<div class="price"> $90 <span> $120 </span></div>
+	 				<a href="#" class="btn"> Book Now </a>
+	 			</div>
+	 			<div class="box">
+	 			<img src="images/paris.jpg" alt="">
+	 			<div class="content">
+	 				<h3> <i class="fas fa-map-marker-alt"> Paris </i> </h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<div class="stars">
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="fas fa-star"></i>
+	 					<i class="far fa-star"></i>
+	 				</div>
+	 				<div class="price"> $90 <span> $120 </span></div>
+	 				<a href="#" class="btn"> Book Now </a>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </section>
+	 <!-- package section ends -->
+	 <!-- services section starts -->
+	 <section class="services" id="services">
+	 	<h1 class="heading"> 
+	 		<span>s</span>
+	 		<span>e</span>
+	 		<span>r</span>
+	 		<span>v</span>
+	 		<span>i</span>
+	 		<span>c</span>
+	 		<span>e</span>
+	 		<span>s</span>
+	 	</h1>
+	 	<div class="box-container">
+	 		<div class="box">
+	 			<i class="fas fa-hotel"></i>
+	 			<h3>affordable hotels</h3>
+	 			<p>Quick and easy way to book a hotel. Best price guaranteed! Find the lowest room rates with one easy search. Book and Save today!</p>
+	 		</div>
+	 		<div class="box">
+	 			<i class="fas fa-utensils"></i>
+	 			<h3>food and drinks</h3>
+	 			<p>Quick and easy way to make an order of your favorite foods snd drinks, Best price guaranteed! Find the lowest Bar and Restaurent rates with easy way search. Book and save the day!</p>
+	 		</div>
+	 		<div class="box">
+	 			<i class="fas fa-bullhorn"></i>
+	 			<h3>safety guide</h3>
+	 			<p>Quick and easy way to book and find where to go for a vacation. Best price guaranteed! Find the lowest place rates with one easy search. Book and Save today!</p>
+	 		</div>
+	 		<div class="box">
+	 			<i class="fas fa-globe-asia"></i>
+	 			<h3>around the world </h3>
+	 			<p>Quick and easy way to discover the World, Best price guaranteed! Book and save the day!</p>
+	 		</div>
+	 		<div class="box">
+	 			<i class="fas fa-plane"></i>
+	 			<h3>fastest travel</h3>
+	 			<p>Quick and easy wway to find the fastest travel company, Best price guaranteed! Book and save the day!</p>
+	 		</div>
+	 		<div class="box">
+	 			<i class="fas fa-hiking"></i>
+	 			<h3>adventures</h3>
+	 			<p>Quick and easy way to go out of your comfort zone to open yourself up to the experiences and beauty that lie gives you, no matter what path you choose to go on. Book and save the day!</p>
+	 		</div>
+	 	</div>
+	 		
+	 </section>
+	 <!-- services section ends -->
+	 <!-- Gallery section starts -->
+	 <section class="gallery" id="gallery">
+	 	 	<h1 class="heading"> 
+	 		<span>g</span>
+	 		<span>a</span>
+	 		<span>l</span>
+	 		<span>l</span>
+	 		<span>e</span>
+	 		<span>r</span>
+	 		<span>y</span>
+	 	</h1>
+	 	<div class="box-container">
+	 		<div class="box">
+	 			<img src="images/Amazing 1.jpg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry. </p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/Amazing 2.jpeg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/Amazing 3.jpg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/Amazing 4.jpg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/Amazing 5.jpeg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/Amazing 6.jpg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/Amazing 7.jpg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/Amazing 8.jpeg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 		<div class="box">
+	 			<img src="images/Amazing 9.jpg" alt="">
+	 			<div class="content">
+	 				<h3>amazing places</h3>
+	 				<p>Lorem ipsum is dummy text of the printing and typesetting industry.</p>
+	 				<a href="#" class="btn">see more</a>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </section>
+	  <!-- Gallery section ends -->
+	  <!-- Review section starts -->
+	  <section class="review" id="review">
+	  		<h1 class="heading"> 
+	 		<span>r</span>
+	 		<span>e</span>
+	 		<span>v</span>
+	 		<span>i</span>
+	 		<span>e</span>
+	 		<span>w</span>
+	 	</h1>
+	 	<div class="swiper-container review-slider">
+	 		<div class="swiper-wrapper">
+	 			<div class="swiper-slide">
+	 				<div class="box">
+	 					<img src="images/Pic1.jpeg" alt="">
+	 					<h1> SHYAKA Deo</h1>
+	 					<p>Lorem ipsum is a dummy text used to replace text in some areas just for the purpose of an example. It can be used in publishing and graphic design. It is used to demonstrate the graphics elements of a document, such as font, typography, and layout.</p>
+	 					<div class="stars">
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="far fa-star"></i>
+	 					</div>
+	 				</div>
+	 			</div>
+	 			<div class="swiper-slide">
+	 				<div class="box">
+	 					<img src="images/Pic2.jpg" alt="">
+	 					<h1> SHYAKA Deo</h1>
+	 					<p>Lorem ipsum is a dummy text used to replace text in some areas just for the purpose of an example. It can be used in publishing and graphic design. It is used to demonstrate the graphics elements of a document, such as font, typography, and layout.</p>
+	 					<div class="stars">
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="far fa-star"></i>
+	 					</div>
+	 				</div>
+	 			</div>
+	 			<div class="swiper-slide">
+	 				<div class="box">
+	 					<img src="images/Pic3.jpeg" alt="">
+	 					<h1> SHYAKA Deo</h1>
+	 					<p>Lorem ipsum is a dummy text used to replace text in some areas just for the purpose of an example. It can be used in publishing and graphic design. It is used to demonstrate the graphics elements of a document, such as font, typography, and layout.</p>
+	 					<div class="stars">
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="far fa-star"></i>
+	 					</div>
+	 				</div>
+	 			</div>
+	 			<div class="swiper-slide">
+	 				<div class="box">
+	 					<img src="images/Pic4.jpeg" alt="">
+	 					<h1> SHYAKA Deo</h1>
+	 					<p>Lorem ipsum is a dummy text used to replace text in some areas just for the purpose of an example. It can be used in publishing and graphic design. It is used to demonstrate the graphics elements of a document, such as font, typography, and layout.</p>
+	 					<div class="stars">
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="fas fa-star"></i>
+	 						<i class="far fa-star"></i>
+	 					</div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	  </section>
+	  <!-- Review section ends -->
+	  <!-- contact section starts -->
+	  <section class="contact" id="contact">
+	  	<h1 class="heading"> 
+	 		<span>c</span>
+	 		<span>o</span>
+	 		<span>n</span>
+	 		<span>t</span>
+	 		<span>a</span>
+	 		<span>c</span>
+	 		<span>t</span>
+	 	</h1>
+	 	<div class="row">
+	 		<div class="image">
+	 			<img src="images/img1.jpg" alt="">
+	 		</div>
+	 		<form action="">
+	 			<div class="inputbox">
+	 				<input type="text" placeholder="name">
+	 				<input type="email" placeholder="email">
+	 			</div>
+	 			<div class="inputbox">
+	 				<input type="number" placeholder="number">
+	 				<input type="text" placeholder="subject">
+	 			</div>
+	 			<textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+	 			<input type="submit" class="btn" value="send message">
+	 		</form>
+	 	</div>
+	  </section>
+	  <!-- contact section ends -->
+	  <!-- brand section -->
+	  <section class="brand-container">
+	  	<div class="swiper-container brand-slider">
+	  		<div class="swiper-wrapper ">
+	  			<div class="swiper-slide"><img src="images/brand1.png" alt=""></div>
+	  			<div class="swiper-slide"><img src="images/brand1.png" alt=""></div>
+	  			<div class="swiper-slide"><img src="images/brand1.png" alt=""></div>
+	  			<div class="swiper-slide"><img src="images/brand1.png" alt=""></div>
+	  			<div class="swiper-slide"><img src="images/brand1.png" alt=""></div>
+	  			<div class="swiper-slide"><img src="images/brand1.png" alt=""></div>
+	  		</div>
+	  	</div>
+	  </section>
+
+	  <!-- footer section -->
+	  <section class="footer">
+	  	<div class="box-container">
+	  		<div class="box">
+	  			 <h3>About us</h3>
+	  			 <p>The pain itself is important to the main adipisicing elite. It is the pleasure of the great manufacturers to accuse him of taking debts</p>
+	  		</div>
+	  		<div class="box">
+	  			 <h3>branch locations</h3>
+	  			 <a href="#">Rwanda</a>
+	  			 <a href="#">Uganda</a>
+	  			 <a href="#">Kenya</a>
+	  			 <a href="#">Tanzania</a>
+	  		</div>
+	  		<div class="box">
+	  			 <h3>quick links</h3>
+	  			 <a href="#home">home</a>
+			     <a href="#book">book</a>
+			     <a href="#packages">packages</a>
+			     <a href="#services">services</a>
+			     <a href="#gallery">gallery</a>
+			     <a href="#review">review</a>
+			     <a href="#contact">contact</a>
+	  		</div>
+	  		<div class="box">
+	  			 <h3>follow us</h3>
+	  			 <a href="#">facebook</a>
+	  			 <a href="#">instagram</a>
+	  			 <a href="#">twitter</a>
+	  			 <a href="#">linkedIn</a>
+	  		</div>
+	  	</div>
+	  	<h1 class="credit">created by<span> Honore</span> | All Rights Reserved!</h1>
+	  </section>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<!-- custom js file -->
+	<script src="jss/script.js"></script>
+</body>
+</html>
